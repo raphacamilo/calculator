@@ -2,6 +2,7 @@ body *{
     box-sizing: border-box;
     font-family: 'Roboto' !important;
     color: #414141;
+    user-select: none;
 }
 :root{
     --bgColor1Dark: #a8aaac55;
@@ -70,4 +71,5 @@ body *{
     align-items: flex-end;
     justify-content: flex-end;
     font-size: 32px;
+    user-select: text;
 }
